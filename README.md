@@ -63,9 +63,11 @@ public/
 
 GitHub Pages static export is supported.
 
-1. Run `npm install`.
-2. Run `npm run build`.
-3. Publish the generated `out/` directory to GitHub Pages.
+This repository deploys to GitHub Pages through the single workflow at `.github/workflows/deploy.yml`.
+
+1. Push changes to `main`.
+2. In GitHub repository settings, set Pages source to `GitHub Actions`.
+3. Let the `Deploy to GitHub Pages` workflow build and publish the generated `out/` directory.
 
 The app is configured to export static files, use the `/BeTheMan` base path in production, and include a `.nojekyll` marker so GitHub Pages serves the `_next` assets correctly.
 
