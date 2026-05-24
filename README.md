@@ -61,14 +61,13 @@ public/
 
 ## Deployment
 
-Recommended: Vercel
+GitHub Pages static export is supported.
 
-1. Push repository to GitHub.
-2. Import project in Vercel.
-3. Set environment variables if needed.
-4. Deploy from the `main` branch.
+1. Run `npm install`.
+2. Run `npm run build`.
+3. Publish the generated `out/` directory to GitHub Pages.
 
-The project is configured to run with standard Next.js production builds.
+The app is configured to export static files, use the `/BeTheMan` base path in production, and include a `.nojekyll` marker so GitHub Pages serves the `_next` assets correctly.
 
 ## App Concept
 
