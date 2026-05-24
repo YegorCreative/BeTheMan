@@ -278,7 +278,9 @@ export function ChallengeExperience() {
         <Container className="py-3">
           <div className="flex items-center justify-between gap-4">
             <div>
-              <p className="font-display text-lg tracking-[0.18em] text-fg">BTM</p>
+              <p className="font-display text-lg tracking-[0.18em] text-fg">
+                Be The Man
+              </p>
               <p className="text-xs uppercase tracking-[0.2em] text-fg-muted">
                 Daily Challenge Protocol
               </p>
